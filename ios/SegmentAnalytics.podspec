@@ -28,6 +28,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SegmentAnalytics/Classes/**/*.{h,m}'
-
+  
   s.dependency 'Analytics'
+  
+  s.dependency 'React'
 end
